@@ -13,7 +13,7 @@ asincrona((err, dato) => {
   if (err) {
     console.error("Tenemos un error");
     console.error(err);
-    // throw err;
+    // throw err; // NO VA A FUNCIONAR
     return false;
   }
 
